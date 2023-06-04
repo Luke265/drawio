@@ -335,9 +335,9 @@
 	EditorUi.prototype.maxBackgroundSize = 1600;
 
 	/**
-	 * Defines the maximum size for images in px. Default is 1200.
+	 * Defines the maximum size for images in px. Default is 10000.
 	 */
-	EditorUi.prototype.maxImageSize = 1200;
+	EditorUi.prototype.maxImageSize = 10000;
 	
 	/**
 	 * Defines the maximum width for pasted text.
@@ -351,14 +351,14 @@
 	EditorUi.prototype.resampleThreshold = 100000;
 
 	/**
-	 * Defines the maximum size for images in bytes. Default is 2 MB.
+	 * Defines the maximum size for images in bytes. Default is 10 MB.
 	 */
-	EditorUi.prototype.maxImageBytes = 2000000;
+	EditorUi.prototype.maxImageBytes = 10000000;
 
 	/**
-	 * Maximum size for background images is 2.5 MB.
+	 * Maximum size for background images is 25 MB.
 	 */
-	EditorUi.prototype.maxBackgroundBytes = 2500000;
+	EditorUi.prototype.maxBackgroundBytes = 25000000;
 
 	/**
 	 * Maximum size for text files in labels is 0.5 MB.

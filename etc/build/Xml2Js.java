@@ -56,7 +56,8 @@ public class Xml2Js
 				else if (f.getCanonicalPath().toLowerCase().endsWith(".xml"))
 				{
 					String name = f.getCanonicalPath()
-							.substring(basePath.length() + 1);
+							.substring(basePath.length() + 1)
+							.replace("\\", "/");
 					result.add(
 							"f['" + name + "'] = '" + processFile(f) + "';\n");
 				}
